@@ -1,0 +1,19 @@
+{
+  "name": "photorenametool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --exec babel-node ./src/index.js",
+    "start": "babel-node --presets @babel/preset-env ./src/index.js"
+  },
+  "author": "Benjamin Freudman",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
+  }
+}
