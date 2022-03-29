@@ -35,7 +35,6 @@ const prompt = async () => {
     }
 }
 
-
 const renameFiles = (path) => {
     const files = readdirSync(path)
     let fileNumber = 1
@@ -45,6 +44,8 @@ const renameFiles = (path) => {
             if (err) console.log(err)
         })
     })
+    console.log('Process complete!')
+    rl.close()
 }
 
 main()
